@@ -14,6 +14,5 @@ def generate_image(data: PromptRequest):
     result = generate_thumbnail(data.prompt)
 
     return {
-        "status": "success",
         "images": result["images"]
     }
