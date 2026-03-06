@@ -4,17 +4,13 @@ function ImagePreview({ images }) {
 
   return (
     <div className="image-grid">
-
       {images.map((img, index) => (
-
         <img
           key={index}
           src={`data:image/jpeg;base64,${img}`}
           alt="thumbnail"
         />
-
       ))}
-
     </div>
   );
 }

@@ -12,7 +12,7 @@ function App() {
 
   const [prompt, setPrompt] = useState("");
   const [style, setStyle] = useState("mrbeast");
-  const [images, setImages] = useState([]);   // FIXED
+  const [images, setImages] = useState([]);   // ✅ fixed
   const [loading, setLoading] = useState(false);
 
   const handleGenerate = async () => {
