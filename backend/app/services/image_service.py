@@ -19,7 +19,7 @@ def generate_thumbnail(prompt):
 
     images = []
 
-    for _ in range(4):
+    for _ in range(2):
 
         response = requests.post(
             HF_MODEL_URL,
